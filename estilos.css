@@ -1,0 +1,127 @@
+body {/*en esta parte vamos a ponerle estilos al cuerpo de nuestra pagina web */
+    background-color: #c4fcef;/*en esta parte se establece el color de fondo para todo el cuerpo de la pagina web */
+    color: #333;/*se define el color del texto por defecto en la pagina */
+    font-family: 'Quicksand', sans-serif;/*se pone el tipo de fuente de la letra*/
+    margin: 0;/*Elimina los margenes y el relleno predeterminado en el cuerpo de la pagina*/
+    padding: 0;
+}
+
+header {
+    background-color: #68acfa;/*define el color para el encabezado*/
+    color: black;/*establece el color del texto dentro del encabezado*/
+    padding: 20px;/*agrega un espacio interior, alrededor del contenido del encabezado*/
+    text-align: center;/*centra el texto dentro del encabezado*/
+}
+
+h1 {
+    font-size: 36px;/*define el tamaño del texto*/
+    margin: 0;/*elimina el margen alrededor del encabezado*/
+    font-family: 'New Amsterdam', serif;/*es para darle una fuente de letra*/
+}
+
+p {
+    line-height: 1.6;/*establece una altura de linea para el texto de los parrafos*/
+    margin: 20px;/*se agrega un margen, alrededor de los parrafos*/
+    font-size: 18px;/*se define el tamaño del texto*/
+    font-family: 'Hind', sans-serif;/*se aplica la fuente de letra*/
+}
+
+hr {
+    border: none;/*elimina el borde por defecto*/
+    border-top: 2px solid #1565c0;/*sirve para crear la linea horizontal de grosor y de color*/
+    margin: 20px 0;/*establece un margen en la parte superior e inferior de la linea*/
+}
+img{
+    width: 100%;/*sirve para que la imgen sea fluida, tambien limita el ancho*/
+    max-width: 300px;
+    margin: 10px auto;/*centra la imagen horizontalmente y le da margen*/
+    display: block;/*hace que la imagen se vea cuadadro, este centado*/
+    border-radius: 10px;/*redondea las esquinas de la imagen*/
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);/*añade una sombra suave alrededor de la imagen*/
+    transition: transform 0.3s ease, filter 0.3s ease; /* Suaviza la transformación y el filtro */
+}
+img:hover {
+    transform: scale(1.5); /* Aplica un zoom del 10% */
+}
+h2 {
+    font-size: 28px;/*se define el tamaño de las letras*/
+    color: #1565c0;/*se le agrega un color al texto*/
+    text-align: center;/*centra el texto del titulo*/
+    font-family: 'New Amsterdam', serif;/*se establece la fuente de letra al texto*/
+    margin-top: 40px;/*se agrega el margen superior*/
+}
+
+ul, ol {
+    margin: 20px;/*se define un margen alrededor de las listas*/
+    padding-left: 40px;/*agrega los rellenos a la izquierda para alinear los elementos*/
+    font-family: 'Hind', sans-serif;/*se define el tipo de fuente para las letras*/
+    font-size: 18px;/*establece el tamaño del texto*/
+}
+
+ul li, ol li {
+    margin-bottom: 10px;/*agrega un margen inferior*/
+}
+
+a {
+    color: #1565c0;/*se le coloca el color a los enlaces*/
+    text-decoration: none;/*elimina el subrayado */
+    font-weight: bold;/*sirve para que los enlaces sean negritas*/
+}
+
+a:hover {
+    text-decoration: underline;/*sirve para subrayar el enlaces cuando se poner el cursos encima*/
+}
+
+form {
+    display: flex;/*sirve para el diseño flexible para el formulario*/
+    flex-direction: column;/*organiza a los elementos en una columna*/
+    align-items: center;/*sirve para centrar los elementos del formulario horizontalmente*/
+    margin: 20px;/*se establece un margen alrdedor del formulario*/
+}
+
+label {
+    margin-bottom: 10px;/*agrega un margen inferior a las etiquetas*/
+    font-size: 18px;/*define el tamaño del texto*/
+}
+
+input[type="email"] {
+    padding: 10px;/*añade el relleno dentro del campo del texto*/
+    font-size: 16px;/*establece el tamaño del texto*/
+    width: 100%;/*sirve para el campo de texto que ocupa el contenedor*/
+    max-width: 300px;
+    margin-bottom: 20px;/*añade el margen inferior*/
+    border: 2px solid #1565c0;/*añade el borde de grosor*/
+    border-radius: 5px;/* Redondea las esquinas del campo de texto.*/
+}
+
+button {
+    background-color: #1565c0;/*se le agrega el color*/
+    color: white;/*se establece el color al texto*/
+    padding: 10px 20px;/*Añade un relleno  de arriba y abajo a los lados*/
+    border: none;/*elimina el borde predeterminado del boton*/
+    border-radius: 5px;/*redondea las esquinas del boton*/
+    font-size: 18px;/*define el tamaño de las letras*/
+    cursor: pointer;/*cambiar el cursor a mano cuando pasa sobre el boton*/
+    transition: background-color 0.3s ease;/*suaviza la transicion cuando el color de fondo cambia*/
+}
+
+button:hover {
+    background-color: #0d47a1;/*sirve para que al pasar el cursor sobre el boton, el color de fondo cambie*/
+}
+
+footer {
+    background-color: #1565c0;/*establece el color de fondo*/
+    color: white;/*se establecer el color de las letras*/
+    text-align: center;/*centra el texto dentro de pie de pagina*/
+    padding: 20px 0;/*Añade un relleno de arriba y abajo.*/
+    font-size: 14px;/*efine el tamaño del texto*/
+}
+
+footer a {
+    color: white;/*establecer el color de la letra*/
+    text-decoration: underline;/*Subraya los enlaces en el pie de página.*/
+}
+
+footer a:hover {
+    text-decoration: none;/*Al pasar el cursor sobre el enlace en el pie de página, se eliminará el subrayado.*/
+}
